@@ -1,0 +1,23 @@
+{
+  "name": "cartesianalgo",
+  "version": "1.0.0",
+  "description": "cartesian algo implemantion w/ ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dtech-Dbug/CartesianAlgo.git"
+  },
+  "keywords": [
+    "typescript",
+    "algorithms"
+  ],
+  "author": "Dtech-Dbug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dtech-Dbug/CartesianAlgo/issues"
+  },
+  "homepage": "https://github.com/Dtech-Dbug/CartesianAlgo#readme"
+}
