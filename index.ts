@@ -12,18 +12,31 @@ let cartesianProduct = (setA: set, setB: set) => {
   let orderedPairs = [];
   // let elements: set = [number, number];
 
-  let relatedList: number[];
+  let relatedList: set = [];
+  let unRelatedList: set = [];
 
-  console.log(typeof setA[1]);
-  console.log(JSON.stringify(setA));
-  console.log(setA);
+  // console.log(typeof setA[1]);
+  // console.log(JSON.stringify(setA));
+  // console.log(setA);
 
   for (i = 0; i < setA.length; i++) {
     for (j = 0; j < setB.length; j++) {
       orderedPairs.push([setA[i], setB[j]]);
     }
   }
-  console.log(orderedPairs);
+  orderedPairs.forEach((pair, index) => {
+    // console.log(pair);
+
+    pair.reduce((prev, next) => {
+      if (prev < next) {
+        relatedList.push(pair);
+        console.log(relatedList);
+      } else {
+        unRelatedList.push(pair);
+        console.log("unrelated list-->", unRelatedList);
+      }
+    });
+  });
 };
 
 cartesianProduct(A, B);
