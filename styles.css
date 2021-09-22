@@ -12,8 +12,9 @@ nav {
   background-color: purple;
   box-shadow: 2px 4px 6px black;
   display: flex;
-  justify-content: flex-starts;
+  justify-content: flex-start;
   align-items: center;
+  color: white;
 }
 nav h2 {
   width: 75%;
@@ -24,4 +25,5 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  list-style: none;
 }
