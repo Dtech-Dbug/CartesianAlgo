@@ -2,6 +2,13 @@
 
 /* font-family: 'Rubik', sans-serif; */
 
+/* //css vars */
+:root {
+  --primary-font: 2rem;
+  --secondary-font : 1.5rem
+  --primary-color: 076471;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,21 +16,41 @@
 }
 
 nav {
-  background-color: purple;
+  background-color: #076471;
+  color: white;
+  height: 3rem;
   box-shadow: 2px 4px 6px black;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: white;
+  font-size: var(--secondary-font);
 }
 nav h2 {
-  width: 75%;
+  width: 60vw;
+  font-size: var(--secodary-font) ;
 }
 
 nav ul {
-  width: 25%;
+  width: 40vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+#about {
+  height: 90vh;
+}
+
+#about h2 {
+  text-align: center;
+}
+#about .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#about .content img,
+p {
+  height: 20rem;
 }
