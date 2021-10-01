@@ -1,4 +1,4 @@
-## Maths and MAchines
+## Maths n' Machines
 - interactive, interesting, intersection of maths and computers
 - features : UI/UX, Scripts 
 - stacks (so far) : HTML,CSS for UI. JavaScript/TypeScript scripts.
